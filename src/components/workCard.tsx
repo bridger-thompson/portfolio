@@ -15,7 +15,14 @@ const WorkCard: React.FC<WorkCardProps> = ({
 }) => {
   return (
     <div className="items-start w-full max-w-2xl mt-5">
-      <div className="text-2xl">{title} - <Link href={link} target="_blank" rel="noreferrer">Snow College</Link></div>
+      <div className="text-2xl">{title} -
+        <Link href={link}
+          target="_blank"
+          rel="noreferrer"
+          className="ml-1 hover:text-blue-500 hover:underline">
+          Snow College
+        </Link>
+      </div>
       <div className="text-sm text-gray-300 mt-1 text-start">{date}</div>
       <ul className="list-none ms-5 mt-2 text-gray-200">
         {details.map((d, i) => (
