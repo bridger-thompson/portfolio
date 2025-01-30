@@ -16,7 +16,7 @@ const NavLink = ({ href, label }: { href: string, label: string }) => {
       <span className="relative">
         {label}
         <span
-          className={`absolute block h-0.5 bg-blue-500 bottom-0 left-0 group-hover:w-full transition-all duration-300 w-${isActive ? '100 w-full' : '0'}`}
+          className={`absolute block h-0.5 bg-blue-500 bottom-0 left-0 group-hover:w-full transition-all duration-300 w-0`}
         />
       </span>
     </Link>
