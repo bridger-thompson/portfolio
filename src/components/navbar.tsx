@@ -11,7 +11,7 @@ const NavLink = ({ href, label }: { href: string, label: string }) => {
     <Link
       href={href}
       id={label}
-      className={`relative group hover:text-blue-500 ${isActive && 'text-blue-500'}`}
+      className={`relative group hover:text-blue-500 text-lg ${isActive && 'text-blue-500'}`}
     >
       <span className="relative">
         {label}
@@ -39,10 +39,10 @@ export const Navbar = () => {
           <NavLink href='/' label='Home' />
         </li>
         <li>
-          <NavLink href='/about' label='About' />
+          <NavLink href='/projects' label='Projects' />
         </li>
         <li>
-          <NavLink href='/projects' label='Projects' />
+          <NavLink href='/articles' label='Articles' />
         </li>
       </ul>
     </nav>
