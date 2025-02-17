@@ -42,7 +42,7 @@ export default function Articles() {
           description: "A slide deck on the tradeoffs made when choosing React Query. It's pretty good."
         },
         {
-          title: "https://www.cerbos.dev/blog/statements-about-stateless?utm_source=tldrwebdev",
+          title: "Statements about stateless",
           url: "https://www.cerbos.dev/blog/statements-about-stateless?utm_source=tldrwebdev",
           description: "The core principles of stateless architecture are independent requests, external state management, idempotency, decoupled components, and horizontal scalability. The advantages of it are better resilience and scalability, while the disadvantages include increased network overhead and having to deal with more complex state management.",
         },
